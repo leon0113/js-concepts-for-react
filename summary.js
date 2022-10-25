@@ -1,5 +1,5 @@
 /* 
-!Fundamentals
+!  Fundamentals
 1.1 variable (let, const) three types variable
 1.2 condition (<. >, ===, !==. <=, >=) && ||, if-else if-else
 1.3 array: declare, length, index, push, pop, indexOf, includes
@@ -7,7 +7,7 @@
 1.5 function return parameter
 1.6 Object property, including array, object
 ------------------
-!ES6
+!  ES6
 1. template string ${}
 2. spread (...) 
 2.1 copy an array then add a new element to an array 
@@ -22,13 +22,13 @@
 6. function parameter default value
 7. Optional chaining (?.)
 --------------------------
-!Browser API
+!  Browser API
 1. local storage session stoage
 2. location API
 3. History API
 4. fetch
 --------------------
-!Others
+!  Others
 1. array: map, forEach, filter, find
 2. ternary operator 
 3. logical and logical or && ||
@@ -36,7 +36,7 @@
 5. +, ''
 */
 
-//? Object declaration shorthand
+//?   Object declaration shorthand.......
 const x = 50;
 const y = 100;
 const obj = {
@@ -44,7 +44,7 @@ const obj = {
     y: y
 };
 
-console.log(obj)
+console.log(obj);
 
 //shortcut
 const obj1 = { x, y };
